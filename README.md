@@ -1,4 +1,4 @@
-# Chinese-Checkers
+# Chinese Checkers
 ## Background on the game and rules
 ### Background on the game
 <p align="justify">Chinese checkers (US and Canadian spelling) or Chinese chequers (UK spelling) is a strategy board game of German origin (named "Sternhalma") which can be played by two, three, four, or six people, playing individually or with partners. The game is a modern and simplified variation of the game Halma.</p>
