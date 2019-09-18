@@ -4,8 +4,8 @@
 <p align="justify">Chinese checkers (US and Canadian spelling) or Chinese chequers (UK spelling) is a strategy board game of German origin (named "Sternhalma") which can be played by two, three, four, or six people, playing individually or with partners. The game is a modern and simplified variation of the game Halma.</p>
 
 <p align="justify">The objective is to be first to race all of one's pieces across the hexagram-shaped board into "home"—the corner of the star opposite one's starting corner—using single-step moves or moves that jump over other pieces. The remaining players continue the game to establish second-, third-, fourth-, fifth-, and last-place finishers. The rules are simple, so even young children can play.</p>
-<center><img src="/docs/fig1.png" alt="Chinese checkers board" style="width: 85.229vw;">
-<font size="1">Figure 1 - Chinese Checkers Board with 6 player sets</font></center>
+<span align="center"><img src="/docs/fig1.png" alt="Chinese checkers board"><br>
+<font size="1">Figure 1 - Chinese Checkers Board with 6 player sets</font></span>
 <p align="justify">Despite its name, the game isn't a variation of checkers, nor did it originate in China or any part of Asia (whereas the game 象棋 xiangqi, or "Chinese chess", is from China). The game was invented in Germany in 1892 under the name "Stern-Halma" as a variation of the older American game Halma. The "Stern" (German for star) refers to the board's star shape (in contrast to the square board used in Halma).</p>
 
 <p align="justify">The name "Chinese Checkers" originated in the United States as a marketing scheme by Bill and Jack Pressman in 1928. The Pressman company's game was originally called "Hop Ching Checkers".</p>
@@ -18,7 +18,7 @@
 
 #### Structure of the board
 <p align="justify">The game goard is made of 121 cells ordered in the shape of a six pointed star (Star of David), while the small triangles that make its corners are made of 10 cells each.</p>
-<center><img alt="Chinese checkers board" src="/docs/fig2.png" style="width: 85.229vw;"></center><p></p>
+<span align="center"><img alt="Chinese checkers board" src="/docs/fig2.png"></span>
 
 #### Starting layout
 <p align="justify">Each player sets his 10 pieces in one of the board corners.
@@ -26,7 +26,7 @@ When two players play, like in our case, the pieces go in opposing corners of th
 
 #### Game progression
 <p align="justify">Players take turns moving a single piece, either by moving one step in any direction to an adjacent empty space, or by jumping in one or any number of available consecutive hops over other single pieces. A player may not combine hopping with a single-step move – a move consists of one or the other. There is no capturing in Chinese Checkers, so hopped pieces remain active and in play.</p>
-<center><img alt="Chinese checkers piece movement options" src="/docs/fig3.png" style="width: 85.229vw;"></center><p></p>
+<span align="center"><img alt="Chinese checkers piece movement options" src="/docs/fig3.png"></span>
 
 #### The winner
 <p>The first to move all 10 of his game pieces to the opposing base.</p>
@@ -36,10 +36,9 @@ When two players play, like in our case, the pieces go in opposing corners of th
 ## Data structure
 <p align="justify">The game board is represented with an undirected and unweighted graph, consisting of 121 vertexes (one for each cell on the board). The maximum degree for each vertex is 6, the minimum degree is 2, and it is connected with an edge to each of its neighbours.
 In addition, the vertexes are placed in a matrix using which we get the location of the vertex on the board and print the vertex on screen.</p>
-<center><img alt="The empty matrix." src="/docs/fig4.png" style="width: 85.229vw;">
+<span align="center"><img alt="The empty matrix." src="/docs/fig4.png"></span>
 
-<img alt="The matrix with the game pieces." src="/docs/fig5.png" style="width: 85.229vw;"></center><p>
-</p>
+<span align="center"><img alt="The matrix with the game pieces." src="/docs/fig5.png"></span>
 
 ```java
 public class GraphFacilities {
