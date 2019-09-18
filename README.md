@@ -165,7 +165,7 @@ The reasons to use a graph over other data structures are:<ul><li>It is possible
 <span align="justify">1. Initalize "longest jump" variable to null.</span><br>
 <span align="justify">2. For every AI piece from rearmost:</span><br>
 <span align="justify">2.1. Reset board ([Function 8](#function-8-resetboard)).</span><br>
-<span align="justify">2.2. Find its optional jumps ([Function 6](#function-6-optinalplayslen3)).</span><br>
+<span align="justify">2.2. Find its optional jumps ([Function 6](#function-6-optionalplayslen3)).</span><br>
 <span align="justify">2.3. For every possible jump forwards <b>and/or</b> centerwards:</span><br>
 <span align="justify">2.3.1. If "longest jump" is null:</span><br>
 <span align="justify">2.3.1.1. If the jump advances the piece forwards <b>and/or</b> centerwards:</span><br>
@@ -180,7 +180,7 @@ The reasons to use a graph over other data structures are:<ul><li>It is possible
 <span align="justify">2.1.1. Set the cell as possible target.</span><br>
 <span align="justify">2.1.2. Add cell location to location set.</span><br>
 <span align="justify">2.1.3 If the edge is a jump:</span><br>
-<span align="justify">2.1.3.1. Find all optional jumps from the passed location ([Function 6](#function-6-optinalplayslen3)).</span><br>
+<span align="justify">2.1.3.1. Find all optional jumps from the passed location ([Function 6](#function-6-optionalplayslen3)).</span><br>
 <span align="justify">2.1.3.2. Add all jumps to location set.</span><br>
 <span align="justify">3. Return location set.</span><br>
 ### Function 6: optionalPlaysLen3
@@ -189,7 +189,7 @@ The reasons to use a graph over other data structures are:<ul><li>It is possible
 <span align="justify">2.1. If the other cell is empty <b>and</b> if the edge is a jump:</span><br>
 <span align="justify">2.1.1. Set the cell as possible target.</span><br>
 <span align="justify">2.1.2. Add cell location to location set.</span><br>
-<span align="justify">2.1.3. Find all optional jumps from the passed location ([Function 6](#function-6-optinalplayslen3)).</span><br>
+<span align="justify">2.1.3. Find all optional jumps from the passed location ([Function 6](#function-6-optionalplayslen3)).</span><br>
 <span align="justify">2.1.4. Add all jumps to location set.</span><br>
 <span align="justify">3. Return location set.</span><br>
 ### Function 7: endTurn
