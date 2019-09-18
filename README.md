@@ -26,7 +26,7 @@ When two players play, like in our case, the pieces go in opposing corners of th
 
 #### Game progression
 <p align="justify">Players take turns moving a single piece, either by moving one step in any direction to an adjacent empty space, or by jumping in one or any number of available consecutive hops over other single pieces. A player may not combine hopping with a single-step move – a move consists of one or the other. There is no capturing in Chinese Checkers, so hopped pieces remain active and in play.</p>
-<center><img alt="Chinese checkers piece movement options" src="/docs/fig2.png" style="width: 85.229vw;"></center><p></p>
+<center><img alt="Chinese checkers piece movement options" src="/docs/fig3.png" style="width: 85.229vw;"></center><p></p>
 
 #### The winner
 <p>The first to move all 10 of his game pieces to the opposing base.</p>
@@ -38,7 +38,7 @@ When two players play, like in our case, the pieces go in opposing corners of th
 In addition, the vertexes are placed in a matrix using which we get the location of the vertex on the board and print the vertex on screen.</p>
 <center><img alt="The empty matrix." src="/docs/fig4.png" style="width: 85.229vw;">
 
-<img alt="The matrix with the game pieces." src="/docs/fig4.png" style="width: 85.229vw;"></center><p>
+<img alt="The matrix with the game pieces." src="/docs/fig5.png" style="width: 85.229vw;"></center><p>
 </p>
 
 ```java
